@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class StringUtilsTests {
 
     @Test
-    public void testReverseNormal() {
+    public void testReverseNormalString() {
         assertEquals("cba", StringUtils.reverseString("abc"));
     }
 
