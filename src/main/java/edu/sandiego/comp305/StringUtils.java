@@ -8,12 +8,6 @@ public class StringUtils {
         if (input == null) {
             return null;
         }
-        if (input.isEmpty()) {
-            return "";
-        }
-        if (input.length() == 1) {
-            return input;
-        }
         return new StringBuilder(input).reverse().toString();
     }
 }
