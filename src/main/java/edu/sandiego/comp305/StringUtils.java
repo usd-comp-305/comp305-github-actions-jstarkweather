@@ -8,6 +8,7 @@ public class StringUtils {
         if (input == null) {
             return null;
         }
+        // added this to resubmit PR link
         return new StringBuilder(input).reverse().toString();
     }
 }
