@@ -5,6 +5,12 @@ public class StringUtils {
     private StringUtils() {}
 
     public static String reverseString(final String input) {
+        if (input == null) {
+            return null;
+        }
+        if (input.isEmpty()) {
+            return "";
+        }
         return null;
     }
 }
