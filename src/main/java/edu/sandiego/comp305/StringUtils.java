@@ -11,6 +11,9 @@ public class StringUtils {
         if (input.isEmpty()) {
             return "";
         }
+        if (input.length() == 1) {
+            return input;
+        }
         return null;
     }
 }
