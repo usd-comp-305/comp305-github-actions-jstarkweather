@@ -8,6 +8,7 @@ public class StringUtils {
         if (input == null) {
             return null;
         }
+        // add this so I can submit an open PR link since I accidentally merged the first time
         return new StringBuilder(input).reverse().toString();
     }
 }
