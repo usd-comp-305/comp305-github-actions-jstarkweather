@@ -14,6 +14,6 @@ public class StringUtils {
         if (input.length() == 1) {
             return input;
         }
-        return null;
+        return new StringBuilder(input).reverse().toString();
     }
 }
